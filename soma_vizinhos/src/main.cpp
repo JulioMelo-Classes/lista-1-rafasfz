@@ -10,24 +10,24 @@ using std::endl;
 
 int main( void )
 {
-    int m, n, total=0;
+    int m, n;
 
-    cin >> m;
-    cin >> n;
+    while( cin >> std::ws >> m >> n) {
+        int total = 0;
+        if(n > 0) {
+            for(int i=0; i<n; i++) {
+                total+=m+i;
+            }
+        } else if(n < 0) {
+            for(int i=0; i<(n*-1); i++) {
+                total+=m-i;
+            }
+        } else {
+            total=m;
+        }
 
-    if(n > 0) {
-        for(int i=0; i<n; i++) {
-            total+=m+i;
-        }
-    } else if(n < 0) {
-        for(int i=0; i<(n*-1); i++) {
-            total+=m-i;
-        }
-    } else {
-        total=m;
+        cout << total << endl;
     }
-
-    cout << total << endl;
 
     return 0;
 }
