@@ -10,7 +10,24 @@ using std::endl;
 
 int main( void )
 {
-    // TODO: Adicione seu código aqui. 
+    int m, n, total=0;
+
+    cin >> m;
+    cin >> n;
+
+    if(n > 0) {
+        for(int i=0; i<n; i++) {
+            total+=m+i;
+        }
+    } else if(n < 0) {
+        for(int i=0; i<(n*-1); i++) {
+            total+=m-i;
+        }
+    } else {
+        total=m;
+    }
+
+    cout << total << endl;
 
     return 0;
 }

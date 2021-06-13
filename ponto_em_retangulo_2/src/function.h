@@ -18,5 +18,7 @@ struct Ponto {
 enum location_t :int { INSIDE=0, BORDER=1, OUTSIDE=2 };
 
 location_t pt_in_rect( const Ponto&, const Ponto&, const Ponto& );
+bool is_between(int n1, int n2, int n3);
+bool is_between_or_equal(int n1, int n2, int n3);
 
 #endif
