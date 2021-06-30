@@ -3,7 +3,9 @@ using std::cin;
 using std::cout;
 
 const int SIZE = 5; // input size.
-
+/*
+ok
+*/
 int main(void)
 {
     int numbers[5];

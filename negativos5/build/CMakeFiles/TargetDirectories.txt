@@ -1,4 +1,0 @@
-/home/rafael/lp1/lista-1-rafasfz/negativos5/build/CMakeFiles/rebuild_cache.dir
-/home/rafael/lp1/lista-1-rafasfz/negativos5/build/CMakeFiles/edit_cache.dir
-/home/rafael/lp1/lista-1-rafasfz/negativos5/build/CMakeFiles/verify.dir
-/home/rafael/lp1/lista-1-rafasfz/negativos5/build/CMakeFiles/program.dir

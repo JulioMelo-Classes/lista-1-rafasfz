@@ -18,6 +18,9 @@ using std::max;
 
 // Coloque aqui qualquer função auxiliar que desejar.
 
+/*
+vou considerar 80% já que vc não validou as entradas
+*/
 
 int main(void)
 {

@@ -13,6 +13,9 @@ using std::setprecision;
 
 // Se desejar, crie funções aqui, antes do main().
 
+/*
+ok
+*/
 int main(void)
 {
     int x;

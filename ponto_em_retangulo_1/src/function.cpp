@@ -3,7 +3,9 @@
 /*! 
  * Verifica se um ponto está dentro de um retângulo.
  */
-
+/*
+blz, acho que vc exagerou nas funções, mas ok
+*/
 location_t pt_in_rect( const Ponto &IE, const Ponto &SD, const Ponto &P )
 {
     if(is_between(IE.x, SD.x, P.x) && is_between(IE.y, SD.y, P.y)) {
